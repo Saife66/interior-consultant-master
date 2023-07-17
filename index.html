@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interior consultant challenge</title>
+    <script src="https://kit.fontawesome.com/592285447a.js" crossorigin="anonymous"></script>
+
+<style>
+   
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@500;600;700&family=Open+Sans:wght@300;400;700;800&family=Space+Mono:wght@400;700&display=swap');
+
+ 
+
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background: #181719;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+    }
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 78px 50px 85px;
+
+}
+.logo{
+    border: 1px solid #FFF;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav li{
+    list-style: none;
+    padding-left: 86px;
+    
+}
+li:first-child{
+    border-bottom: 2px solid white;
+    padding-left: 0px;
+}
+
+main{
+ padding: 200px 44px 200px 80px;
+}
+
+.photo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.left{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.photo img{
+    width: 60%;
+    padding: 20px;
+
+}
+h1{
+font-family: Lora;
+font-size: 3rem;
+font-weight: 500;
+}
+.left p{
+font-size: 1.5rem;
+font-weight: 400;
+}
+
+h6{
+font-size: 1.1rem;
+font-weight: 700;
+}
+h2{
+font-family: Lora;
+font-size: 1.5rem;
+font-weight: 700;
+}
+
+/* profile  */
+.rightt{
+    position: relative;
+
+}
+.right{
+    width: 430px;
+height: 230px;
+background: #181719;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+position:absolute;
+ right:70px; 
+ top:-140px;
+}
+
+
+.profile{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+}
+
+.profile-titile{
+
+font-family: Montserrat;
+font-size: 1rem;
+font-weight: 500;
+margin-top: 22px;
+}
+
+.profile-des{
+    color: #828282;
+font-size: 1rem;
+font-weight: 500;
+margin-top: 8px;
+}
+
+
+.profile-photo{
+    border-radius: 50%;
+    width: 20%;
+    margin-top: 22px;
+    padding-left: 30px;
+}
+
+.proh2{
+    padding: 30px 90px 40px 30px;
+    text-align: left;
+}
+
+/* footw */
+
+footer{
+    text-align: center;
+    margin: 24px 0px;
+}
+.footer{
+    color: #A9A9A9;
+font-size: 14px;
+font-weight: 500;
+}
+
+.username{
+    color: #A9A9A9;
+font-size: 14px;
+font-weight: 700;
+text-decoration-line: underline;
+}
+
+@media screen and (max-width:600px) {
+
+    .photo{
+    flex-direction: column;
+    padding: 5px;
+
+}
+
+main{
+ padding: 20px;
+}
+.header{
+    padding-left: 30px;
+}
+.menus{
+    display: none;
+}
+.rightt{
+    
+}
+
+.photo img{
+    width: 100%;
+    padding: 20px;
+
+}
+
+.right{
+    width: 300px;
+height: 138px;
+ right:14px; 
+ top:-90px;
+}
+
+
+.profile{
+    gap: 10px;
+}
+
+.profile-titile{
+margin-top: 12px;
+}
+
+
+
+.profile-photo{
+    margin-top: 15px;
+}
+
+.proh2{
+    padding: 20px 90px 10px 30px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+footer{
+    margin: 60px 0px 20px 0px;
+}
+
+}
+</style>
+
+</head>
+<body>
+    <header class="header">
+
+        <div class="logo">
+            This Interior
+        </div>
+        <div class="menus" >
+            <ul class="nav">
+
+                <li class="home">Home</li>
+                <li> Collection </li>
+                <li>About</li>
+                <li>Contact</li>
+            
+            </ul>
+               
+        </div>
+    </header>
+    <main>
+<section class="photo">
+    <div class="left">
+        <h1>Modern interior</h1>
+        <p>A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+        <h6>Read more <i class="fa-solid fa-right-long "></i></h6>
+    </div>
+
+    <img src="/photo1.png" alt="">
+</section>
+       <section class="rightt">
+        <div class="right">
+            <div class="profile">
+                <img class="profile-photo" src="/photo2.png" alt="">
+                <div class="name">
+                    <p class="profile-titile">Aliza Webber</p>
+                    <p class="profile-des">Interior designer</p>
+                </div>
+            </div>
+            <h2 class="proh2">Designed in 2020 by Aliza Webber</h2>
+            
+        </div>
+       </section>
+       
+
+    </main>
+    <footer>
+        <p class="footer">created by <span class="username" >username</span>- devChallenges.io</p>
+    </footer>
+</body>
+</html>
